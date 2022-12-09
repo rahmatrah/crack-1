@@ -18,8 +18,7 @@ tytyd = str(raw_input("[!] Jangan Lupa Bersyukur [!](Tekan Enter)"))
 login = 'https://www.facebook.com/login.php?login_attempt=1'
 
 
-useragents = [('Mozilla/5.0 (Linux; Android 11; Infinix X695C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36')]
-
+useragents = [('Mozilla/5.0 (Linux; Android 11; Infinix X695C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36'])
 def main():
 	global br
 	br = mechanize.Browser()
